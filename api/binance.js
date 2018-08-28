@@ -6,3 +6,7 @@ async function get_all_btc_pairs() {
         pair => pair.symbol.substring(pair.symbol.length - 3) == 'BTC'
     );
 }
+
+module.exports = {
+    get_all_btc_pairs
+}
